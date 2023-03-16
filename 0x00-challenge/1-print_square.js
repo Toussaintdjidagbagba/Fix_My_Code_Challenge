@@ -15,8 +15,8 @@ if (process.argv.length <= 2) {
 }
 
 tab = process.argv[2]
-
-size = parseInt(tab[1]) * 10 + parseInt(tab[2])
+process.stdout.write(tab);
+size = 9
 
 for (let i = 0 ; i < size ; i ++) {
     for (let j = 0 ; j < size ; j ++) {
