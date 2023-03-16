@@ -26,7 +26,7 @@ def fizzbuzz(n):
             tmp_result += "Buzz"
         else:
             tmp_result += str(i)
-    print(tmp_result, end=' ')
+    print(tmp_result, end='\n')
 
 
 if __name__ == '__main__':
