@@ -14,7 +14,9 @@ if (process.argv.length <= 2) {
     process.exit(1)
 }
 
-size = parseInt(process.argv[2])
+tab = process.argv[2]
+
+size = parseInt(tab[1]) * 10 + parseInt(tab[2])
 
 for (let i = 0 ; i < size ; i ++) {
     for (let j = 0 ; j < size ; j ++) {
