@@ -14,9 +14,7 @@ if (process.argv.length <= 2) {
     process.exit(1)
 }
 
-tab = process.argv[2]
-process.stdout.write(eval(parseInt(tab)*10))
-size = 9
+size = parseInt(process.argv[2], 10)
 
 for (let i = 0 ; i < size ; i ++) {
     for (let j = 0 ; j < size ; j ++) {
